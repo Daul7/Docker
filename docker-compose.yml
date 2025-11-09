@@ -1,11 +1,12 @@
 version: "3.8"
 
 services:
-   app:
-    image: psusphere:latest
+  web:
     build: .
+    image: psusphere:latest
     ports:
       - "8000:8000"
     volumes:
       - .:/app
-    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    command: sh -c "python projectsite/manage.py migrate && python projectsite/manage.py runserver 0.0.0.0:8000"
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 # Docker
 =======
 # PSUSphere - Django
@@ -17,4 +17,4 @@
 **JOHN RUSSEL P. CABAILO**
 &
 **DATU H. LACHICA**
->>>>>>> 15b63a4 (first step)
+ 15b63a4 (first step)
